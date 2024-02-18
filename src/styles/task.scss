@@ -40,5 +40,20 @@
   padding: 7px 0px 0px 7px;
   width: 95%;
   height: 130px;
+  margin-bottom: 10px;
   background: rgba(123, 123, 123, 0.33);
+}
+
+.popup-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1,
+  h4,
+  .xmark,
+  img {
+    margin: 0px;
+  }
 }

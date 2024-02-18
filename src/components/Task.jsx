@@ -16,7 +16,7 @@ const Task = () => {
   return (
     <div className="wrapper__tasks">
       <div className={popUp ? "overflow" : ""}>
-        {popUp && <PopUpDetails task={currentTask} />}
+        {popUp && <PopUpDetails task={currentTask} setPopup={setPopup} />}
       </div>
       {tasks.map((item, index) => (
         <div className="task" key={index}>

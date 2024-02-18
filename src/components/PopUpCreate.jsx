@@ -25,6 +25,9 @@ const PopUpCreate = (props) => {
     ];
     dispatch(newTask([...items, ...newItems]));
     props.setPopup(false);
+    setInputTitle("");
+    setInputDesc("");
+    setInputDate("");
   };
 
   return (
